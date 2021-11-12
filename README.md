@@ -10,3 +10,6 @@ Contrary to class type hints, you can also choose between two modes: the strict 
 ## Return type declaration
 Whereas type hints ensure input consistency, return type declarations ensure output consistency.
 
+## Anonymous classes
+Anonymous classes are useful for simple one-off objects. With anonymous classes you can define a class and instantiate an object inline.
+
