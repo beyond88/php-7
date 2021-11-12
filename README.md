@@ -7,3 +7,6 @@ You were already able to declare type hints for classes, callables, and arrays i
 
 Contrary to class type hints, you can also choose between two modes: the strict mode and the non-strict mode, the latter being the default. This means PHP will try to cast the values to the desired type. The casts will happen silently if there is no loss of information, otherwise, a warning will be raised. This can lead to the same strange results you can have with string to numbers conversion or true and false values.
 
+## Return type declaration
+Whereas type hints ensure input consistency, return type declarations ensure output consistency.
+
