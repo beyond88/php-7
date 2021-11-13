@@ -17,5 +17,10 @@ Anonymous classes are useful for simple one-off objects. With anonymous classes 
 Closures are anonymous functions that are declared inline and assigned to a variable. It can be used as a callback for later execution. In PHP 5 it was already possible to bind an object to the scope of the closure as if it was a method.
 The “call” method is one of the PHP 7 features that was introduced to simplify the process.
 
+## The null coalesce operator
+The null coalesce operator is a shorthand for checking if a value is set and not null within inline comparisons. Instead of doing the same old “isset” check over and over again, just use “??” to return the value if it is set (and not null) or an alternative value instead.
+
+
+
 
 
