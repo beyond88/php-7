@@ -20,6 +20,13 @@ The “call” method is one of the PHP 7 features that was introduced to simpli
 ## The null coalesce operator
 The null coalesce operator is a shorthand for checking if a value is set and not null within inline comparisons. Instead of doing the same old “isset” check over and over again, just use “??” to return the value if it is set (and not null) or an alternative value instead.
 
+## The space ship operator
+Instead of returning a typical true/false value, the space ship operator returns one of the follow values based on the result of the evaluation:<br>
+
+- 0 when both values are equal
+- -1 when the left value is less than the right value
+- 1 if the left value is greater than the right value
+
 
 
 
