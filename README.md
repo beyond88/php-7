@@ -48,6 +48,12 @@ But when you want to go a couple of levels up, you end up nesting dirname calls 
 
 As of PHP 7 the dirname function has a second argument that indicates how many levels your going up the directory tree. If you don’t enter a value, 1 is the default.
 
+## The Integer division function
+
+The intdiv function returns the integer value of a division whereas regular divisions can result in a float being returned.
+
+
+
 
 
 
