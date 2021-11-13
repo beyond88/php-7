@@ -40,6 +40,16 @@ There are event different kinds of errors we can catch:<br>
 - ParseError
 - TypeError
 
+## Level support for the dirname() function
+
+The dirname function is used more often than you would think. It is the ideal function to refer to directories in a relative way.
+
+But when you want to go a couple of levels up, you end up nesting dirname calls and that will eventually lead to confusion.
+
+As of PHP 7 the dirname function has a second argument that indicates how many levels your going up the directory tree. If you don’t enter a value, 1 is the default.
+
+
+
 
 
 
