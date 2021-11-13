@@ -27,6 +27,19 @@ Instead of returning a typical true/false value, the space ship operator returns
 - -1 when the left value is less than the right value
 - 1 if the left value is greater than the right value
 
+## Throwables
+A big change in PHP 7 is the fact that errors are no longer raised the way they used to be raised. Errors now behave in a similar way as exceptions. They both inherit from the Throwable interface.
+
+This means that errors can now be caught in a try/catch block. You can catch both exceptions and errors as Throwables, but you can also catch errors as Error objects.
+
+There are event different kinds of errors we can catch:<br>
+
+- ArithmeticError
+- AssertionError
+- DivisionByZeroError
+- ParseError
+- TypeError
+
 
 
 
