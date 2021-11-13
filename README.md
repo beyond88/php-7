@@ -13,3 +13,9 @@ Whereas type hints ensure input consistency, return type declarations ensure out
 ## Anonymous classes
 Anonymous classes are useful for simple one-off objects. With anonymous classes you can define a class and instantiate an object inline.
 
+## Closure
+Closures are anonymous functions that are declared inline and assigned to a variable. It can be used as a callback for later execution. In PHP 5 it was already possible to bind an object to the scope of the closure as if it was a method.
+The “call” method is one of the PHP 7 features that was introduced to simplify the process.
+
+
+
