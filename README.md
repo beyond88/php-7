@@ -71,6 +71,17 @@ Let's summarize how short closures can be used.
 - No return keyword allowed
 - Arguments and return types can be type hinted
 
+A more strictly typed way of writing the example above could be this:
+
+```
+
+$ids = array_map(fn(Post $post): int => $post->id, $posts);
+
+```
+Two more things to mention:
+
+- The spread operator is also allowed
+- References are allowed, both for the arguments as the return values
 
 
 
