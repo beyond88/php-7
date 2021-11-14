@@ -52,6 +52,20 @@ As of PHP 7 the dirname function has a second argument that indicates how many l
 
 The intdiv function returns the integer value of a division whereas regular divisions can result in a float being returned.
 
+## Arrow function
+Short closures, also called arrow functions, are a way of writing shorter functions in PHP. This notation is useful when passing closures to functions like ```array_map``` or ```array_filter```.
+
+```
+
+// A collection of Post objects
+$posts = [/* … */];
+
+$ids = array_map(fn($post) => $post->id, $posts);
+
+```
+
+
+
 
 
 
