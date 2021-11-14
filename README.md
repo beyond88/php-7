@@ -83,6 +83,14 @@ Two more things to mention:
 - The spread operator is also allowed
 - References are allowed, both for the arguments as the return values
 
+If you want to return a value by reference, the following syntax should be used:
+
+```
+
+fn&($x) => $x
+
+```
+
 
 
 
