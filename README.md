@@ -64,6 +64,13 @@ $ids = array_map(fn($post) => $post->id, $posts);
 
 ```
 
+Let's summarize how short closures can be used.
+
+- They start with the fn keyword
+- They can only have one expression, which is the return statement
+- No return keyword allowed
+- Arguments and return types can be type hinted
+
 
 
 
